@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Notification</title>
+</head>
+<body>
+    <h2>Reminder: Task '{{ task.title }}' is pending</h2>
+    <p>{{ task.description }}</p>
+    <p><strong>Deadline:</strong> {{ task.deadline }}</p>
+    <p><strong>Assigned to:</strong> {{ task.assigned_to.username }}</p>
+</body>
+</html>

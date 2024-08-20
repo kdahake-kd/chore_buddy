@@ -1,0 +1,109 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h2 {
+    color: #333;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #f8f9fa;
+}
+
+.progress-bar {
+    transition: width 0.6s ease;
+}
+/* General navbar styling */
+/* General navbar styling */
+.navbar {
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.btn-outline-primary, .btn-outline-success, .btn-outline-info, .btn-outline-danger {
+    margin-right: 10px;
+}
+
+.btn-outline-primary:hover, .btn-outline-success:hover, .btn-outline-info:hover, .btn-outline-danger:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+}
+
+
+/* create task form css*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #343a40;
+}
+
+form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input, form select, form textarea {
+    margin-bottom: 15px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* details.html */
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
